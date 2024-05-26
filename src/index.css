@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Jura, system-ui, sans-serif;
+    font-weight: 700;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a {
+    outline: none;
+    display: inline-block;
+
+    color: inherit;
+    text-decoration: none;
+
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+  }
+
+  button {
+    display: inline-block;
+
+    padding: 0;
+    border: 0;
+    outline: none;
+    margin: 0;
+
+    box-shadow: 0px;
+    background-color: transparent;
+
+    font-family: inherit;
+    color: inherit;
+    fill: currentColor;
+
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul,
+  li,
+  ol {
+    padding: 0px;
+    margin: 0px;
+
+    list-style: none;
+  }
+}
